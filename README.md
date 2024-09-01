@@ -8,8 +8,8 @@ Source data is a square divided into 4 stripes, points within each stripe have t
 
 Data is rendered properly in web environment, but not in native app:
 
-![web](web.png)
-
-![native](native.png)
+Web             |  iOS
+:-------------------------:|:-------------------------:
+![web](web.png) | ![native](native.png)
 
 See `test-gradient-2.tif` for source data, `test-gradient-recipe.json` for tileset recipe, `style.json` for style (exported from mapbox studio). You can recreate the issue on web and iOS with `example.html` and `example.swift`. Note: for the square to display you need to zoom in to zoom level 5 at [0, 0] coordinates.
