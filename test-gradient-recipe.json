@@ -1,0 +1,16 @@
+{
+    "version": 1,
+    "type": "rasterarray",
+    "sources": [
+        {
+            "uri": "mapbox://tileset-source/kbobrowski/test-gradient-2"
+        }
+    ],
+    "layers": {
+        "shadow": {
+            "tilesize": 512,
+            "buffer": 1,
+            "resampling": "nearest"
+        }
+    }
+}
